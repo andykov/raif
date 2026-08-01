@@ -1,4 +1,3 @@
-import'./style.css';
 const $=document.getElementById('root');
 const icons={user:'☻',bell:'♧',search:'⌕',qr:'▦',plus:'＋',swap:'↔',card:'▭',percent:'%',info:'ⓘ',clock:'◷',chat:'▱',more:'•••',eye:'⌧',door:'⇱',map:'♙',back:'←',cal:'▣',cash:'▣',lock:'▣',gear:'⚙',shield:'♥',face:'⌘',del:'⌫'};
 function logo(){return'<div class="logo">⚒</div>'}function ic(x,c=''){return`<div class="ico ${c}">${icons[x]||x}</div>`}function round(x,dot=''){return`<button class="round">${icons[x]}${dot?'<b></b>':''}</button>`}

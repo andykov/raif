@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs dist 4173",
+    "dev": "npm run build && npm run serve"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
